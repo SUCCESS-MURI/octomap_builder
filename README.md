@@ -2,7 +2,7 @@
 A package to create an octomap from a specified topic.
 
 ## Authors:
-Zhao Han, UMass Lowell
+Zhao Han, UMass Lowell  
 Gregory LeMasurier, UMass Lowell
 
 ## How to use this package
@@ -42,7 +42,7 @@ To restore a map that was created using `process_and_publish()`
 octomap_builder.restore_map();
 ```
 
-If you want to process your pointcloud before creating an octomap use:
+If you want to process your pointcloud before creating an octomap use:  
 NOTE: you can not restore an octomap created by calling publish directly.
 ```
 octomap_builder.publish(points);
