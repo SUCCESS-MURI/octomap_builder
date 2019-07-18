@@ -1,5 +1,5 @@
 # success_octomap_builder
-A package to create an octomap from a specified topic.
+A package to create an octomap on demand from a custom topic.
 
 ## Authors:
 Zhao Han, UMass Lowell  
@@ -29,7 +29,7 @@ OctomapBuilder octomap_builder(nh, "OCTOMAP_TOPIC");
 
 To build an octomap:
 ```
-octomap_builder.process_and_publish("POINTCLOUD TOPIC");
+octomap_builder.process_and_publish("YOU OWN POINTCLOUD TOPIC");
 ```
 
 To clear the octomap:
